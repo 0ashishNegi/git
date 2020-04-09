@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="edit.css">
+    </head>
+
+    <body>
+        <h2>Edit your profile</h2>
+        <div class="wrap">
+           
+           <form class="form" align="center">
+               <div class="img">
+            <input type="file" id="real-file" hidden="hidden">
+            <button type="button" id="custom-button">Your image</button>
+        </div>
+               <main>
+                   <div>
+               <input type="text" placeholder="Ashish Negi" required>
+               <input type="text" placeholder="ashish@gmail.com" required>
+               <input type="text" placeholder="passward.." required>
+               <input type="text" placeholder="Confirm passward.." required>
+              
+               
+                   </div>
+                   <div>
+               <input type="text" placeholder="9398293823" required>
+               <input type="text" placeholder="uttrakhand" required>
+               <input type="text" placeholder="27162726526726" required>
+               <input type="text" placeholder="BOB765." required>
+               <input type="text" placeholder="246424" required>
+               </div>
+               <div>
+               <input type="Submit" value="Submit" align="center">
+                   </div>            
+            </main>
+            </form> 
+        </div>
+        <script type="text/javascript">
+            const realfilebtn=document.getElementById("real-file");
+            const custombtn=document.getElementById("custom-button");
+            const customtxt=document.getElementById("custom-text");
+   
+            custombtn.addEventListener("click",function() {
+                realfilebtn.click();
+            });
+   
+             realfilebtn.addEventListener("change",function(){
+                 if(realfilebtn.value){
+                     customtxt.innerHTML=realfilebtn.value.match(/[\/\\]([\w\d\s\.\-(\)]+)$/)[1];
+                 }
+                 else{
+                     customtxt.innerHTML="No file"
+                 }
+             })
+         </script>
+    </body>
+</html>

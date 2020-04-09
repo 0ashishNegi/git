@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css')
+body{
+    font-family: arial;
+    
+
+}
+*{
+    background:url(b5.jpg) no-repeat center center fixed;
+    background-size: 1366px auto;
+    background-position: center;
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position:fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: #ce7852;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #ce7852;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    background: #ce7852;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition:  .4s;
+    
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+

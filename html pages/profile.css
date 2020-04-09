@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css')
+body{
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+     height:10%;
+     width: 100%;
+     border: 1px;
+     border-color: black;
+     text-align: center;
+     background-color: white;
+     padding-top: 15px;
+     padding-bottom: 5px;
+
+}
+
+.text{
+    font-family: Arial;
+    color: orangered;
+}
+
+.second{
+    padding-top: 3px;
+    height: 30%;
+    width: 100%;
+    background-image: linear-gradient(white,#ce7852) ;
+}
+
+.second2{
+    height:175px ;
+    width: 175px;
+    background-image: url(d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+    border-radius: 100px;
+}
+
+.last{
+    height: 30%;
+    width: 100%;
+    background-image: url(b3.jpg);
+    background-position: center;
+    background-size: 500px;
+    padding: 100px;
+}
+.table{
+    width: 1300px;
+    height: 150px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+
+}

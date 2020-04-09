@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="sidebar.css">
+    </head>
+
+    <body>
+        <h2>Sign up here</h2>
+        <div class="wrap">
+           
+           <form class="form" align="center">
+               <div class="img">
+            <input type="file" id="real-file" hidden="hidden">
+            <button type="button" id="custom-button">Your image</button>
+        </div>
+               <main>
+                   <div>
+               <input type="text" placeholder="Name.." required>
+               <input type="text" placeholder="Email.." required>
+               <input type="text" placeholder="passward.." required>
+               <input type="text" placeholder="Confirm passward.." required>
+              
+               
+                   </div>
+                   <div>
+               <input type="text" placeholder="phone no.." required>
+               <input type="text" placeholder="address.." required>
+               <input type="text" placeholder="Bank ID.." required>
+               <input type="text" placeholder="UFC Code.." required>
+               <input type="text" placeholder="Pin code.." required>
+               </div>
+               <div>
+               <input type="Submit" value="Submit" align="center">
+                   </div>            
+            </main>
+            </form> 
+        </div>
+        <script type="text/javascript">
+            const realfilebtn=document.getElementById("real-file");
+            const custombtn=document.getElementById("custom-button");
+            const customtxt=document.getElementById("custom-text");
+   
+            custombtn.addEventListener("click",function() {
+                realfilebtn.click();
+            });
+   
+             realfilebtn.addEventListener("change",function(){
+                 if(realfilebtn.value){
+                     customtxt.innerHTML=realfilebtn.value.match(/[\/\\]([\w\d\s\.\-(\)]+)$/)[1];
+                 }
+                 else{
+                     customtxt.innerHTML="No file"
+                 }
+             })
+         </script>
+    </body>
+</html>
