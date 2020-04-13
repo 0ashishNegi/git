@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css')
 body{
-}
-*{
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +9,7 @@ body{
      border: 1px;
      border-color: black;
      text-align: center;
-     background-color: white;
+     background-color: #FF780C;
      padding-top: 15px;
      padding-bottom: 5px;
 
@@ -19,39 +17,65 @@ body{
 
 .text{
     font-family: Arial;
-    color: orangered;
+    color: white;
 }
 
 .second{
     padding-top: 3px;
     height: 30%;
     width: 100%;
-    background-image: linear-gradient(white,#ce7852) ;
+    background-color: #FF780C ;
 }
 
 .second2{
     height:175px ;
     width: 175px;
-    background-image: url(d.jpg);
+    background-image: url(g.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: ;
     border-radius: 100px;
 }
 
 .last{
-    height: 30%;
-    width: 100%;
-    background-image: url(b3.jpg);
-    background-position: center;
-    background-size: 500px;
-    padding: 100px;
+    margin-top: 40px;
+    height: 80%;
+    width: 800px;
+    border-left: 1px solid #6F6D68 ;
+    border-right: 1px solid #6F6D68;
+    border-radius: 5px;
 }
-.table{
-    width: 1300px;
-    height: 150px;
-    text-align: center;
-    font-weight: 600;
-    font-size: 25px;
 
+hr
+{
+    border: 1px solid black;
+    width: 655px;
+    padding-right: 40px;
+    margin-top: 0px;
+}
+
+h2{
+    font-family: Arial;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+table{
+    width: 700px;
+    height: 400px;
+    font-family:Arial ;
+    position: relative; 
+}
+th{
+    height: 90px; 
+    font-weight: normal;
+    font-size: 20px;
+    text-align:left;
+    padding-left: 30px;
+}
+td{
+    font-weight: normal;
+    font-size: 18px;
+}
 }

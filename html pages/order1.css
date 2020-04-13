@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first{
+    height: 20%;
+    width: 100%;
+    text-align:center;
+    padding-top: 10px;
+    color: white;
+    background:#FF942E;
+    font-family : Arial;
+    border: 1px solid black;
+    margin-bottom: 50px;
+
+}
+
+
+.i1{
+    height: 150px;
+    width: 120px;
+    padding-left: 50px;
+}
+
+table{
+    height: 200;
+    width: 90%;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #E4D9BF;
+}
+td{
+    padding: 0px;
+    text-align: left;
+    
+}
+label{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 15;
+}
+
+h{
+    height: 30px;
+    margin-bottom: 20px;
+}

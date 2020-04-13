@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+table,td,th{
+    height: 45px;
+    padding: 0px;
+    margin-top: 55px;
+    
+}
+.log{
+    height: 500px;
+    width: 500px;
+    padding: 0px;
+
+}
+.reg{
+    height: 800px;
+    width: 500px;
+    padding: 0px;
+
+}
+.f1{
+    border: 1px solid black;
+    height: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 408px;
+    border-radius: 5px;
+}
+.f2{
+    border: 1px solid black;
+    height: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.form-group{
+    text-align: left;
+}
+input{
+    width: 90%;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+label{
+    font-weight: bold;
+    font-family: Arial;
+}
+h1{
+    font-size: 30px;
+    font-family: arial;
+    text-align: left;
+    margin-left: 18px;
+    margin-bottom: 0px;
+
+}
+button{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size:20px;
+    color: #fff;
+}
+button:hover{
+    background: #003366;
+    opacity: 0.7;
+}
+.head{
+    height: 200px;
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    background-image: url(b19.jpg) ;
+    background-position: center;
+    background-size:1360px 500px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
