@@ -1,0 +1,62 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+body{
+   
+}
+div.maindiv{
+    min-width: 500px;
+    background-image: url(/assets/b5.jpg);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1015px 650px;
+    
+}
+div.maindiv > div.sidebar{
+    float: left;
+    width: 18%;
+}
+div.maindiv > div.box{
+    float: left;
+    width: 80%;
+}
+
+.sidebar{
+    margin-top: 0px;
+    position:fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: #ce7852;
+    padding-left: 0px;
+}
+.sidebar header{
+    margin-top: 0px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #ce7852;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    background: #ce7852;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition:  .4s;
+    
+}
+ul li:hover a{
+    padding-left: 30px;
+}
+
+table,tr,th{
+    border: 2px solid red;
+}
